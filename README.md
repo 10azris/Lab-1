@@ -13,6 +13,12 @@
 | enum4linux-ng      |                                |
 ---
 ## How to start
+
+Got my metasploitable's IP address beforehand:
+-in this case my metasploitables ip address is 192.168.18.132
+
+![Screenshot 2025-04-11 114148](https://github.com/user-attachments/assets/e46ca9d7-de06-4805-9959-0d575431749d)
+
 Performed a port scan using Nmap:
 
 nmap -sV -A 192.168.18.132
