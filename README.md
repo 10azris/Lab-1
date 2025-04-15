@@ -103,14 +103,15 @@ i entered the proxy
 
 ![Screenshot 2025-04-15 161738](https://github.com/user-attachments/assets/60e021da-3303-4b0a-abae-abc42fc29feb)
 
-## Problem Encountered
+## Problems Encountered
 ---
-| Problem                           | Solution                       |
-|-----------------------------------|--------------------------------|
-| SMB Enumeration Took Time         | Attacker machine               |
-| SSH Bruteforce Got Blocked Fast   | Target/vulnerable machine      |
-| HTTP Login Had Protection         | Port scanning                  |
+| Problem                                        | Solution               |
+|------------------------------------------------|------------------------|
+| wrongly wrote metasploitable ip                | found the right one    |
+| changed proxy but burt suite didnt switch on   | changed the proxy      |
+| enulinux had an error                          | used a different IP    |
 ---
+
 ## Mitigation Strategies
 
 ## Conclusion
