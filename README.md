@@ -85,7 +85,6 @@ i entered DVWA login page
 ![Screenshot 2025-04-15 151935](https://github.com/user-attachments/assets/1561347d-d7cd-45f6-a887-2ea14d445ecd)
 
 ## then login using the info
-Username: admin
-Password: password
+Username: admin Password: password
 
 
