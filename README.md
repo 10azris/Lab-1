@@ -58,11 +58,11 @@ then i proceeded by pressing Y
 
 ![Screenshot 2025-04-15 133606](https://github.com/user-attachments/assets/3d83ec6d-a9fb-4a4c-a7b8-726568835445)
 
-## FTP Brute Force using kali
+## FTP Brute Force using Hydra
 
 ![Screenshot 2025-04-15 143702](https://github.com/user-attachments/assets/a16f39b6-f19c-4d23-b80e-af7e89c4ce94)
 
-## Telnet Brute Force using kali
+## Telnet Brute Force using Hydra
 
 ![Screenshot 2025-04-15 144104](https://github.com/user-attachments/assets/38b2f84f-93da-488a-876b-ffc2671c3b64)
 
