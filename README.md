@@ -71,5 +71,8 @@ then i proceeded by pressing Y
 
 ## SSH Brute Force using NetExec
 
-a
+![Screenshot 2025-04-15 145308](https://github.com/user-attachments/assets/fbce218b-c0e1-457f-8686-215a7f9c848d)
+
+## HTTP Login Brute Force Using Burp Suite
+
 
