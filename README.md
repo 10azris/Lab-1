@@ -1,6 +1,6 @@
 # Lab 1: Cryptographic Attacks: Brute Force and Traffic Analysis on Network Protocols
 
-## Task 1: Enumerate the Vulnerable VM to Discover Usernames
+## Step 1: Enumerate the Vulnerable VM to Discover Usernames
 Requirements
 
 | Tool               | Purpose                        |
@@ -25,3 +25,10 @@ Performed a port scan using Nmap:
 nmap -sV -A 192.168.18.132
 
 ![Screenshot 2025-04-11 113514](https://github.com/user-attachments/assets/f12b45e0-630f-43d6-b422-cbdfd93f749f)
+
+enum4linux 192.168.10.132
+
+![Screenshot 2025-04-15 132309](https://github.com/user-attachments/assets/f4b7dc2a-b9f6-44c3-9aab-3c6ae396ee77)
+
+## Step 2: Perform Brute Force Attacks
+
