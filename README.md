@@ -94,6 +94,9 @@ go to DVWA security and choose low
 
 ![Screenshot 2025-04-15 152414](https://github.com/user-attachments/assets/6810567f-9931-4e7f-a36c-1dd79f83b567)
 
+go into burp suite to find the proxy
+
+![Screenshot 2025-04-15 161517](https://github.com/user-attachments/assets/4e395211-e6d5-426e-85b7-ac59c6a3193c)
 
 
 
