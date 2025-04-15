@@ -32,3 +32,8 @@ enum4linux 192.168.10.132
 
 ## Step 2: Perform Brute Force Attacks
 
+switched on hydra which was pre installed in kali linux
+
+![Screenshot 2025-04-15 132850](https://github.com/user-attachments/assets/4e05fd81-6395-406d-8d5f-858e368a825f)
+
+
