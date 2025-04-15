@@ -1,8 +1,5 @@
 # Lab 1: Cryptographic Attacks: Brute Force and Traffic Analysis on Network Protocols
 
-## Objective
-1.Explore vulnerabilities in common network protocols (FTP, TELNET, SSH & HTTP).
-2.
 
 ## Step 1: Enumerate the Vulnerable VM to Discover Usernames
 Requirements
