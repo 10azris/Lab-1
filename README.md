@@ -72,7 +72,7 @@ then i proceeded by pressing Y
 
 ![Screenshot 2025-04-15 145308](https://github.com/user-attachments/assets/fbce218b-c0e1-457f-8686-215a7f9c848d)
 
-## HTTP Login Brute Force using Web app
+## HTTP Login Brute Force
 
 Browse to http://192.168.18.132/
 
