@@ -113,6 +113,14 @@ i entered the proxy
 ---
 
 ## Mitigation Strategies
+---
+| Protocol   | Issue                     | Fix It With                             |
+|------------|---------------------------|------------------------------------------
+| FTP        | Data sent in plain text   | Use FTPS/SFTP                           |
+| TELNET     | No encryption at all      | Disable it completely                   |
+| HTTP       | Login info exposed        | Force HTTPS with valid certificate      |
+| Passwords  | Too easy to guess         | Strong passwords + MFA + lockout policy |
+---
 
 ## Conclusion
 This lab helped me understand how common network protocols like FTP, TELNET, HTTP, and even SSH can be vulnerable if not configured properly. By using tools like Hydra, Burp Suite, and Wireshark, I was able to simulate real-world brute-force attacks, capture credentials, and analyze how data flows across a network.
