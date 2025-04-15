@@ -51,7 +51,7 @@ switched on hydra which was pre installed in kali linux
 
 #for the ftp attack
 i then inserted the info required for the attack such as
-- metasploits ip address: 192.168.10.132
+- metasploits ip address: 192.168.18.132
 - username to attack: msfadmin
 - password : msfadmin
 
