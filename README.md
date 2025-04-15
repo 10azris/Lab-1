@@ -2,10 +2,7 @@
 
 ## Objective
 1.Explore vulnerabilities in common network protocols (FTP, TELNET, SSH & HTTP).
-2.Perform brute force attacks to recover passwords.
-3.Use recovered credentials to sniff network traffic.
-4.Analyze the security posture of each protocol.
-5.Propose effective mitigation strategies.
+2.
 
 ## Step 1: Enumerate the Vulnerable VM to Discover Usernames
 Requirements
