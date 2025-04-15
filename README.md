@@ -25,6 +25,8 @@ Performed a port scan using Nmap:
 
 nmap -sV -A 192.168.18.132
 
+![Screenshot 2025-04-15 144526](https://github.com/user-attachments/assets/a3c0a099-70db-44e0-a7b3-92465dde276d)
+
 ![Screenshot 2025-04-11 113514](https://github.com/user-attachments/assets/f12b45e0-630f-43d6-b422-cbdfd93f749f)
 
 enum4linux 192.168.10.132
