@@ -72,6 +72,15 @@ then i proceeded by pressing Y
 
 ![Screenshot 2025-04-15 145308](https://github.com/user-attachments/assets/fbce218b-c0e1-457f-8686-215a7f9c848d)
 
-## HTTP Login Brute Force Using Burp Suite
+## HTTP Login Brute Force using Web app
+
+Browse to http://192.168.18.132/
+
+![Screenshot 2025-04-15 151147](https://github.com/user-attachments/assets/aef3e974-bc27-4d4d-8cd3-1279aba380dc)
+
+i entered DVWA login page
+
+![Screenshot 2025-04-15 151331](https://github.com/user-attachments/assets/f25d603e-a9f8-4e15-9df7-fc796d25f883)
+
 
 
