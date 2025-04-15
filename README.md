@@ -57,5 +57,11 @@ then i proceeded by pressing Y
 
 ## Telnet Brute Force using kali
 
+![Screenshot 2025-04-15 144104](https://github.com/user-attachments/assets/38b2f84f-93da-488a-876b-ffc2671c3b64)
 
+![Screenshot 2025-04-15 144210](https://github.com/user-attachments/assets/e2b8fc13-1576-4480-9b72-c4a1ec792b58)
+
+## SSH Brute Force using NetExec
+
+a
 
