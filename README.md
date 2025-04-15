@@ -115,3 +115,5 @@ i entered the proxy
 ## Mitigation Strategies
 
 ## Conclusion
+This lab helped me understand how common network protocols like FTP, TELNET, HTTP, and even SSH can be vulnerable if not configured properly. By using tools like Hydra, Burp Suite, and Wireshark, I was able to simulate real-world brute-force attacks, capture credentials, and analyze how data flows across a network.
+The biggest takeaway is that protocols like FTP and TELNET are highly insecure because they transmit information in plain text. On the other hand, SSH provides strong encryption, which shows why it’s the preferred alternative.this lab taught me not just how to exploit weaknesses, but more importantly, how to defend against them using proper security practices like using encryption, enforcing strong passwords, and limiting access. These lessons are essential in real-world network security.
