@@ -31,7 +31,13 @@ nmap -sV -A 192.168.18.132
 
 enum4linux 192.168.10.132
 
-![Screenshot 2025-04-15 132309](https://github.com/user-attachments/assets/f4b7dc2a-b9f6-44c3-9aab-3c6ae396ee77)
+![Screenshot 2025-04-15 144742](https://github.com/user-attachments/assets/930f1dc0-134b-4cbf-8618-34a59fd7da3a)
+
+![Screenshot 2025-04-15 144830](https://github.com/user-attachments/assets/a6358b30-cc20-46aa-b4e4-ed8f89027b8a)
+
+![Screenshot 2025-04-15 144906](https://github.com/user-attachments/assets/c667e651-cae5-46a3-9ed7-d8550dd1d860)
+
+![Screenshot 2025-04-15 144943](https://github.com/user-attachments/assets/ab878b6b-f259-4de9-88a4-195d1bd796dd)
 
 ## Step 2: Perform Brute Force Attacks
 
