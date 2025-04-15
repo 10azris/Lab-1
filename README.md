@@ -85,6 +85,15 @@ i entered DVWA login page
 ![Screenshot 2025-04-15 151935](https://github.com/user-attachments/assets/1561347d-d7cd-45f6-a887-2ea14d445ecd)
 
 ## then login using the info
-Username: admin Password: password
+Username: admin
+Password: password
+
+![Screenshot 2025-04-15 152253](https://github.com/user-attachments/assets/3d7b45a9-cb46-40b3-a6a0-44c29fa8eddf)
+
+go to DVWA security and choose low
+
+![Screenshot 2025-04-15 152414](https://github.com/user-attachments/assets/6810567f-9931-4e7f-a36c-1dd79f83b567)
+
+
 
 
