@@ -98,5 +98,9 @@ go into burp suite to find the proxy
 
 ![Screenshot 2025-04-15 161517](https://github.com/user-attachments/assets/4e395211-e6d5-426e-85b7-ac59c6a3193c)
 
+i entered the proxy
+127.0.0.1 and port 8080 from burp suite
+
+![Screenshot 2025-04-15 161738](https://github.com/user-attachments/assets/60e021da-3303-4b0a-abae-abc42fc29feb)
 
 
