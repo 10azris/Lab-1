@@ -163,6 +163,41 @@ next i inserted the code to input the message and verify the validity of the sig
 
 the full code looks like this
 
+```
+from Crypto.PublicKey import RSA
+from Crypto.Signature import pkcs1_15
+from Crypto.Hash import SHA256
+
+
+key = RSA.generate(2048)
+private_key = key
+public_key = key.publickey()
+
+
+def sign_message(message):
+    hash_obj = SHA256.new(message.encode())
+    return pkcs1_15.new(private_key).sign(hash_obj)
+
+
+def verify_signature(message, signature):
+    hash_obj = SHA256.new(message.encode())
+    try:
+        pkcs1_15.new(public_key).verify(hash_obj, signature)
+        return True
+    except (ValueError, TypeError):
+        return False
+
+
+user_msg = input("Enter a message to digitally sign: ")
+signature = sign_message(user_msg)
+print("Signature (hex):", signature.hex())
+
+
+is_valid = verify_signature(user_msg, signature)
+print("Signature Verified:", is_valid)
+
+```
+
 ![Screenshot 2025-05-08 120435](https://github.com/user-attachments/assets/c30582bd-c105-41ad-84c8-055203ecfacc)
 
 here is the output
