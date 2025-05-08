@@ -1,6 +1,6 @@
-# Lab 4: Implementing Cryptography with Python
+# 🧪 Lab 4: Implementing Cryptography with Python
 ---
-## Objective
+## 📌 Objective
 1. Learn core cryptographic operations using Python.
 2. Practice symmetric (AES) and asymmetric (RSA) encryption.
 3. Understand hashing and digital signatures.
@@ -10,7 +10,7 @@ first i downloaded pycryptodome
 
 ![Screenshot 2025-05-08 093454](https://github.com/user-attachments/assets/c6fa1176-e2ec-46b8-abd5-d68b3f3c9d57)
 
-## Part 1: Symmetric Encryption using AES-256-CBC
+## 🔐 Part 1: Symmetric Encryption using AES-256-CBC
 
 first i inserted the code for AES encryption
 
@@ -32,7 +32,7 @@ here is the output
 
 ![Screenshot 2025-05-08 112212](https://github.com/user-attachments/assets/6fc9cc6b-286d-4ee7-9182-924f0d56f106)
 
-## Part 2: Asymmetric Encryption using RSA
+## 🔑 Part 2: Asymmetric Encryption using RSA
 
 first i inserted the code for RSA encryption
 
@@ -54,7 +54,7 @@ here is the output
 
 ![Screenshot 2025-05-08 113629](https://github.com/user-attachments/assets/e358988e-7cd9-4347-86ad-d4e03cc73691)
 
-## Part 3: Hashing and Message Integrity using SHA-256
+## 🔄 Part 3: Hashing and Message Integrity using SHA-256
 
 i put in the code to encode the message in SHA
 
@@ -68,7 +68,7 @@ here is the output
 
 ![Screenshot 2025-05-08 114645](https://github.com/user-attachments/assets/f5fd91d9-afcd-44ef-a0b0-7e94f8c0d628)
 
-## Part 4: Digital Signatures using RSA & SHA-256
+## ✍️ Part 4: Digital Signatures using RSA & SHA-256
 
 first i inserted the code for the private and public key
 
