@@ -29,6 +29,42 @@ later i added code to allow us to input a message
 
 the full code looks like this
 
+```
+from Crypto.Cipher import AES
+from Crypto.Random import get_random_bytes
+import base64
+
+key = get_random_bytes(32)
+iv = get_random_bytes(16)
+
+def pad(data):
+    pad_len = 16 - len(data) % 16
+    return data + bytes([pad_len]) * pad_len
+
+def unpad(data):
+    pad_len = data[-1]
+    return data[:-pad_len]
+
+def encrypt_aes(plaintext):
+    cipher = AES.new(key, AES.MODE_CBC, iv)
+    padded = pad(plaintext.encode())
+    ciphertext = cipher.encrypt(padded)
+    return base64.b64encode(ciphertext).decode()
+
+def decrypt_aes(cipher_b64):
+    cipher = AES.new(key, AES.MODE_CBC, iv)
+    ciphertext = base64.b64decode(cipher_b64)
+    padded_plaintext = cipher.decrypt(ciphertext)
+    return unpad(padded_plaintext).decode()
+
+# User input
+user_msg = input("Enter a message to encrypt with AES: ")
+cipher_text = encrypt_aes(user_msg)
+print("Encrypted:", cipher_text)
+print("Decrypted:", decrypt_aes(cipher_text))
+
+```
+
 ![Screenshot 2025-05-08 103759](https://github.com/user-attachments/assets/fd37b3d7-6c5e-459e-a824-a6d4b788885e)
 
 here is the output
