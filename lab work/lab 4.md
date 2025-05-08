@@ -55,4 +55,17 @@ here is the output
 ![Screenshot 2025-05-08 113629](https://github.com/user-attachments/assets/e358988e-7cd9-4347-86ad-d4e03cc73691)
 
 ## Part 3: Hashing and Message Integrity using SHA-256
+
+i put in the code to encode the message in SHA
+
+![Screenshot 2025-05-08 114535](https://github.com/user-attachments/assets/881a61d8-e0e5-4ff8-92c3-82be23b717e9)
+
+the full code looks like this
+
+![Screenshot 2025-05-08 113953](https://github.com/user-attachments/assets/a53af610-1661-4b12-bcb1-9879ea44274b)
+
+here is the output
+
+![Screenshot 2025-05-08 114645](https://github.com/user-attachments/assets/f5fd91d9-afcd-44ef-a0b0-7e94f8c0d628)
+
 ## Part 4: Digital Signatures using RSA & SHA-256
