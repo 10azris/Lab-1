@@ -33,5 +33,26 @@ here is the output
 ![Screenshot 2025-05-08 112212](https://github.com/user-attachments/assets/6fc9cc6b-286d-4ee7-9182-924f0d56f106)
 
 ## Part 2: Asymmetric Encryption using RSA
+
+first i inserted the code for RSA encryption
+
+![Screenshot 2025-05-08 113034](https://github.com/user-attachments/assets/e2d9cb4d-3d1a-4fad-af9f-693af0ff2847)
+
+then naim inserted the code for AES decryption
+
+![Screenshot 2025-05-08 113124](https://github.com/user-attachments/assets/20e4d3e4-763c-4263-be41-74ced2128400)
+
+later i added code to allow us to input a message
+
+![Screenshot 2025-05-08 113509](https://github.com/user-attachments/assets/5d77f043-ebe2-4b0c-89fe-169cea74fd96)
+
+the full code looks like this
+
+![Screenshot 2025-05-08 113551](https://github.com/user-attachments/assets/d5f907c7-21f5-4334-b3f5-2d16f204aa1f)
+
+here is the output
+
+![Screenshot 2025-05-08 113629](https://github.com/user-attachments/assets/e358988e-7cd9-4347-86ad-d4e03cc73691)
+
 ## Part 3: Hashing and Message Integrity using SHA-256
 ## Part 4: Digital Signatures using RSA & SHA-256
