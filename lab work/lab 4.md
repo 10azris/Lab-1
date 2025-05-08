@@ -70,6 +70,22 @@ here is the output
 
 ## Part 4: Digital Signatures using RSA & SHA-256
 
+first i inserted the code for the private and public key
+
+![Screenshot 2025-05-08 121601](https://github.com/user-attachments/assets/ade7bf3f-d25c-4e68-bf35-448c9b877bc4)
+
+then i inserted the code to sign the message
+
+![Screenshot 2025-05-08 121729](https://github.com/user-attachments/assets/146c6eb6-de44-467d-802f-ef110c053bc2)
+
+after that i inserted the code to verify the signature
+
+![Screenshot 2025-05-08 121849](https://github.com/user-attachments/assets/f7609d9e-fa62-481e-9562-4985b1ecbd00)
+
+next i inserted the code to input the message and verify the validity of the sign
+
+![Screenshot 2025-05-08 121929](https://github.com/user-attachments/assets/cac76f0c-2a76-4a30-b26a-0b0099da2e03)
+
 the full code looks like this
 
 ![Screenshot 2025-05-08 120435](https://github.com/user-attachments/assets/c30582bd-c105-41ad-84c8-055203ecfacc)
