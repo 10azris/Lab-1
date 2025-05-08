@@ -69,3 +69,12 @@ here is the output
 ![Screenshot 2025-05-08 114645](https://github.com/user-attachments/assets/f5fd91d9-afcd-44ef-a0b0-7e94f8c0d628)
 
 ## Part 4: Digital Signatures using RSA & SHA-256
+
+the full code looks like this
+
+![Screenshot 2025-05-08 120435](https://github.com/user-attachments/assets/c30582bd-c105-41ad-84c8-055203ecfacc)
+
+here is the output
+
+![Screenshot 2025-05-08 120454](https://github.com/user-attachments/assets/13d4fc9e-2757-45d3-bc0a-9849edc73fdd)
+
