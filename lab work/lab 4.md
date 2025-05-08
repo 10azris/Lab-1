@@ -130,7 +130,6 @@ def hash_message(message):
     hash_obj = SHA256.new(message.encode())
     return hash_obj.hexdigest()
 
-# User input
 user_msg = input("Enter a message to hash using SHA-256: ")
 hashed = hash_message(user_msg)
 print("SHA-256 Hash:", hashed)
