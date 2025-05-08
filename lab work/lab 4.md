@@ -86,6 +86,30 @@ later i added code to allow us to input a message
 
 the full code looks like this
 
+```
+from Crypto.PublicKey import RSA
+from Crypto.Cipher import PKCS1_OAEP
+
+key = RSA.generate(2048)
+public_key = key.publickey()
+private_key = key
+
+def encrypt_rsa(message):
+    cipher = PKCS1_OAEP.new(public_key)
+    return cipher.encrypt(message.encode())
+
+def decrypt_rsa(ciphertext):
+    cipher = PKCS1_OAEP.new(private_key)
+    return cipher.decrypt(ciphertext).decode()
+
+# User input
+user_msg = input("Enter a message to encrypt with RSA: ")
+rsa_encrypted = encrypt_rsa(user_msg)
+print("Encrypted RSA:", rsa_encrypted)
+print("Decrypted RSA:", decrypt_rsa(rsa_encrypted))
+
+```
+
 ![Screenshot 2025-05-08 113551](https://github.com/user-attachments/assets/d5f907c7-21f5-4334-b3f5-2d16f204aa1f)
 
 here is the output
