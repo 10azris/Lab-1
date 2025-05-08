@@ -123,6 +123,20 @@ i put in the code to encode the message in SHA
 
 the full code looks like this
 
+```
+from Crypto.Hash import SHA256
+
+def hash_message(message):
+    hash_obj = SHA256.new(message.encode())
+    return hash_obj.hexdigest()
+
+# User input
+user_msg = input("Enter a message to hash using SHA-256: ")
+hashed = hash_message(user_msg)
+print("SHA-256 Hash:", hashed)
+
+```
+
 ![Screenshot 2025-05-08 113953](https://github.com/user-attachments/assets/a53af610-1661-4b12-bcb1-9879ea44274b)
 
 here is the output
