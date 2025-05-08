@@ -102,7 +102,6 @@ def decrypt_rsa(ciphertext):
     cipher = PKCS1_OAEP.new(private_key)
     return cipher.decrypt(ciphertext).decode()
 
-# User input
 user_msg = input("Enter a message to encrypt with RSA: ")
 rsa_encrypted = encrypt_rsa(user_msg)
 print("Encrypted RSA:", rsa_encrypted)
