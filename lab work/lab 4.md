@@ -57,7 +57,6 @@ def decrypt_aes(cipher_b64):
     padded_plaintext = cipher.decrypt(ciphertext)
     return unpad(padded_plaintext).decode()
 
-# User input
 user_msg = input("Enter a message to encrypt with AES: ")
 cipher_text = encrypt_aes(user_msg)
 print("Encrypted:", cipher_text)
