@@ -9,3 +9,8 @@
 first i downloaded pycryptodome
 
 ![Screenshot 2025-05-08 093454](https://github.com/user-attachments/assets/c6fa1176-e2ec-46b8-abd5-d68b3f3c9d57)
+
+## Part 1: Symmetric Encryption using AES-256-CBC
+## Part 2: Asymmetric Encryption using RSA
+## Part 3: Hashing and Message Integrity using SHA-256
+## Part 4: Digital Signatures using RSA & SHA-256
