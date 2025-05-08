@@ -1,7 +1,7 @@
-# REST OF THE LABS ARE IN THE LAB WORKS FOLDER ABOVE ⬆️
+# REST OF THE LABS ARE IN THE LAB WORK FOLDER ABOVE ⬆️
 
 
-# Lab 1: Cryptographic Attacks: Brute Force and Traffic Analysis on Network Protocols
+## Lab 1: Cryptographic Attacks: Brute Force and Traffic Analysis on Network Protocols
 
 
 ## Step 1: Enumerate the Vulnerable VM to Discover Usernames
