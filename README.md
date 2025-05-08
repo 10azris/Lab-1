@@ -1,3 +1,6 @@
+# REST OF THE LABS ARE IN THE LAB WORKS FOLDER ABOVE ⬆️
+
+
 # Lab 1: Cryptographic Attacks: Brute Force and Traffic Analysis on Network Protocols
 
 
