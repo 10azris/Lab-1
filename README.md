@@ -1,7 +1,8 @@
 # REST OF MY WORKINGS ARE IN THE FOLDERS ABOVE ⬆️
 
+---
 
-## Lab 1: Cryptographic Attacks: Brute Force and Traffic Analysis on Network Protocols
+# Lab 1: Cryptographic Attacks: Brute Force and Traffic Analysis on Network Protocols
 
 
 ## Step 1: Enumerate the Vulnerable VM to Discover Usernames
