@@ -179,3 +179,16 @@ Objective: Crack provided hashes.
 - SnZlcmV4IEF2IEpmcmNyZSBFeiBCcnJl
 - 6283293831c84671546324c9373704ca
 - 2bc92f33a2ede5ada3d65b468a81f617d0229d843d87c63313833e509e5a6782
+
+first Using Kali Linux's built in base64 decoding i got
+
+``Jverex Av Jfrcrre Ez Brre``
+
+![Screenshot 2025-05-16 205830](https://github.com/user-attachments/assets/70a465ad-d33a-480c-a896-5b1bd4352e15)
+
+it is ROT13 encoded text
+
+``wireless network security``
+
+
+
