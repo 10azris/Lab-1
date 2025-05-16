@@ -171,7 +171,7 @@ cat Your_Name.txt``
 ---
 
 
-## 🔐 Task 5: Hash Cracking Challenge
+## 🕵️ Task 5: Hash Cracking Challenge
 Objective: Crack provided hashes.
 
 - Hashes Provided (Variety of types):
