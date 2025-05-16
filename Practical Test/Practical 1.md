@@ -1,5 +1,7 @@
 # Practical Test 1
 
+## Preperation
+
 first, i enabled ssh and finished prepping
 
 ![Screenshot 2025-05-16 195239](https://github.com/user-attachments/assets/7cca7a70-6693-4d84-a3e6-d43afae5f3f4)
@@ -54,6 +56,10 @@ and this is the output i got
 
 ![Screenshot 2025-05-16 201048](https://github.com/user-attachments/assets/c19dde3a-9425-447b-9290-4095edf9559d)
 
+
+---
+
+
 ## Task 2: Encrypt and Decrypt a File
 
 im gonna create a file using this command
@@ -93,6 +99,27 @@ then i verified the message
 
 ---
 ## Task 3: Sign and Verify a Message
+
+first i created a sign message
+
+``echo "I, Your Name, declare this is my work." > signed_message.txt``
+
+![Screenshot 2025-05-16 202558](https://github.com/user-attachments/assets/8c5cb3f3-769a-4c44-8e33-036bcf2daf67)
+
+next i'll sign the file
+
+``gpg --clearsign signed_message.txt``
+
+![Screenshot 2025-05-16 202800](https://github.com/user-attachments/assets/bf3f3e99-c4b0-4bd2-bff5-12381574a2a3)
+
+after that i'll verify the signature
+
+``gpg --verify signed_message.txt.asc``
+
+![Screenshot 2025-05-16 202927](https://github.com/user-attachments/assets/dd9cc37e-c25a-4071-8c7f-447ce3ba0d5e)
+
+
+---
 ## Task 4: Configure Passwordless SSH Authentication
 ## Task 5: Hash Cracking Challenge
 Objective: Crack provided hashes.
