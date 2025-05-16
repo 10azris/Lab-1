@@ -1,4 +1,5 @@
 # Practical Test 1
+
 first, i enabled ssh and finished prepping
 
 ![Screenshot 2025-05-16 195239](https://github.com/user-attachments/assets/7cca7a70-6693-4d84-a3e6-d43afae5f3f4)
@@ -61,7 +62,36 @@ im gonna create a file using this command
 
 ![Screenshot 2025-05-16 201337](https://github.com/user-attachments/assets/6be1756a-3356-4fd2-b100-9cd2c7e66bd0)
 
+next im gonna encrypt the file using my public key
 
+``gpg --encrypt --recipient "Your Name" message.txt``
+
+![Screenshot 2025-05-16 201629](https://github.com/user-attachments/assets/13709791-67dd-460c-80a3-85909371e30b)
+
+then im gonna decrypt the file using
+
+``gpg --output decrypted.txt --decrypt message.txt.gpg``
+
+as i try to decrypt it im asked for my paraphrase i previously inserted
+
+![Screenshot 2025-05-16 201819](https://github.com/user-attachments/assets/6aa051b7-f723-49fd-b3cc-4482a34fe812)
+
+after i put in my paraphrase which was 
+
+``azris``
+
+![Screenshot 2025-05-16 201919](https://github.com/user-attachments/assets/5cfd4dfd-8ed5-4002-bbfc-ce0db97cf431)
+
+my message got encrypted
+
+then i verified the message
+
+``cat decrypted.txt``
+
+![Screenshot 2025-05-16 202132](https://github.com/user-attachments/assets/3ff1c21a-1c60-4d67-bebf-e5a8a1df5664)
+
+
+---
 ## Task 3: Sign and Verify a Message
 ## Task 4: Configure Passwordless SSH Authentication
 ## Task 5: Hash Cracking Challenge
