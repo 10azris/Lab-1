@@ -180,6 +180,16 @@ Objective: Crack provided hashes.
 - 6283293831c84671546324c9373704ca
 - 2bc92f33a2ede5ada3d65b468a81f617d0229d843d87c63313833e509e5a6782
 
+i inserted a custom wordlist
+
+![Screenshot 2025-05-16 212105](https://github.com/user-attachments/assets/0c0807f0-fb1b-467a-967a-d3c6a6203b90)
+
+![Screenshot 2025-05-16 212155](https://github.com/user-attachments/assets/7eb38b7f-58d6-4bb9-9584-17ce08419b02)
+
+then i verified the wordlist
+
+![Screenshot 2025-05-16 212235](https://github.com/user-attachments/assets/ef2514f7-1857-43fb-97b9-174c9903a7f2)
+
 first Using Kali Linux's built in base64 decoding i got
 
 ``Jverex Av Jfrcrre Ez Brre``
