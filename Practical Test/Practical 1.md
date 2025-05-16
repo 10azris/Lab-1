@@ -1,6 +1,5 @@
 # Practical Test 1
 
-## Preperation
 
 first, i enabled ssh and finished prepping
 
