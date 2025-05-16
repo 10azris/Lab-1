@@ -24,6 +24,35 @@ then i chose my keysize which is 3073 long
 
 ![Screenshot 2025-05-16 200042](https://github.com/user-attachments/assets/73cdae2a-9607-4e68-8788-8f0717a78422)
 
+next i chose the expiry date
+
+``Key is valid for? (0) 1y``
+
+![Screenshot 2025-05-16 200310](https://github.com/user-attachments/assets/9110e32a-5bde-4475-b4e0-408daaefa963)
+
+i entered my credentials such as,
+1. name
+2. email
+3. comment
+
+![Screenshot 2025-05-16 200702](https://github.com/user-attachments/assets/f3fee914-84ce-4971-a54f-5258b202693a)
+
+then i was told to insert a paraphrase
+
+``azris`` was my paraphrase
+
+![Screenshot 2025-05-16 200810](https://github.com/user-attachments/assets/4a0fb9c7-5870-4786-99c5-fd00e668c7ca)
+
+![Screenshot 2025-05-16 200931](https://github.com/user-attachments/assets/b49d2386-51b4-4511-880a-ed9358e3cb56)
+
+then i tested it out using
+
+``gpg --list-keys``
+
+and this is the output i got
+
+![Screenshot 2025-05-16 201048](https://github.com/user-attachments/assets/c19dde3a-9425-447b-9290-4095edf9559d)
+
 ## Task 2: Encrypt and Decrypt a File
 ## Task 3: Sign and Verify a Message
 ## Task 4: Configure Passwordless SSH Authentication
