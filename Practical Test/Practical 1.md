@@ -123,6 +123,54 @@ after that i'll verify the signature
 
 ---
 ## Task 4: Configure Passwordless SSH Authentication
+
+i'll generate the SSH key
+
+``ssh-keygen -t rsa -b 4096 -C "Your Name-YourID"``
+
+![Screenshot 2025-05-16 203359](https://github.com/user-attachments/assets/07cb936f-a6be-4c37-a219-7041f729cf98)
+
+i chose the default location with no paraphrase
+
+![Screenshot 2025-05-16 203442](https://github.com/user-attachments/assets/5039f25c-ba61-4c53-b3f2-5a7cb8197400)
+
+then i viewed my public key using
+
+``cat ~/.ssh/id_rsa.pub``
+
+![Screenshot 2025-05-16 203537](https://github.com/user-attachments/assets/4b8b57b3-0c80-443c-a08c-301073cefe4d)
+
+I added public key to authorized keys
+
+``cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+chmod 700 ~/.ssh``
+
+![Screenshot 2025-05-16 203820](https://github.com/user-attachments/assets/438acfb1-50f6-40d3-9211-5930c344895f)
+
+Then i Tested passwordless login
+
+![Screenshot 2025-05-16 204005](https://github.com/user-attachments/assets/644dfca0-ba07-48e2-84b8-e6857a9dd54a)
+
+![Screenshot 2025-05-16 204043](https://github.com/user-attachments/assets/d78752b7-7f1c-45e4-bc54-28c64d4e7e36)
+
+Then i created a file via SSH
+
+``ssh localhost "echo Your_Student_ID > Your_Name.txt"``
+
+![Screenshot 2025-05-16 204208](https://github.com/user-attachments/assets/336ba1a0-257f-4d30-a3a3-7b188f1e6a55)
+
+next im gonna check the file
+
+``ls
+cat Your_Name.txt``
+
+![Screenshot 2025-05-16 204349](https://github.com/user-attachments/assets/7781fe06-14ff-4c02-91ec-cf20e1ad67bd)
+
+
+---
+
+
 ## Task 5: Hash Cracking Challenge
 Objective: Crack provided hashes.
 
