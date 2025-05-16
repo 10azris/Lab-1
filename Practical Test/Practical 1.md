@@ -1,4 +1,4 @@
-# Practical Test 1
+# 📌 Practical Test 1
 
 
 first, i enabled ssh and finished prepping
