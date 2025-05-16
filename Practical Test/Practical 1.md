@@ -1,3 +1,7 @@
+# Practical Test 1
+first, i enabled ssh and finished prepping
+![Screenshot 2025-05-16 195239](https://github.com/user-attachments/assets/7cca7a70-6693-4d84-a3e6-d43afae5f3f4)
+
 ## Task 1: Generate Your GPG Key Pair
 ## Task 2: Encrypt and Decrypt a File
 ## Task 3: Sign and Verify a Message
