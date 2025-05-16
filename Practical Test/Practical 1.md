@@ -8,7 +8,7 @@ first, i enabled ssh and finished prepping
 
 ---
 
-## Task 1: Generate Your GPG Key Pair
+## 🛠️ Task 1: Generate Your GPG Key Pair
 
 next i opened kali and generated the key
 
@@ -62,7 +62,7 @@ and this is the output i got
 ---
 
 
-## Task 2: Encrypt and Decrypt a File
+## 🔓 Task 2: Encrypt and Decrypt a File
 
 im gonna create a file using this command
 
@@ -100,7 +100,7 @@ then i verified the message
 
 
 ---
-## Task 3: Sign and Verify a Message
+## ✍️ Task 3: Sign and Verify a Message
 
 first i created a sign message
 
@@ -122,7 +122,7 @@ after that i'll verify the signature
 
 
 ---
-## Task 4: Configure Passwordless SSH Authentication
+## 🔑 Task 4: Configure Passwordless SSH Authentication
 
 i'll generate the SSH key
 
@@ -171,7 +171,7 @@ cat Your_Name.txt``
 ---
 
 
-## Task 5: Hash Cracking Challenge
+## 🔐 Task 5: Hash Cracking Challenge
 Objective: Crack provided hashes.
 
 - Hashes Provided (Variety of types):
