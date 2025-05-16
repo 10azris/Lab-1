@@ -54,6 +54,14 @@ and this is the output i got
 ![Screenshot 2025-05-16 201048](https://github.com/user-attachments/assets/c19dde3a-9425-447b-9290-4095edf9559d)
 
 ## Task 2: Encrypt and Decrypt a File
+
+im gonna create a file using this command
+
+``echo "This file was encrypted by Your Name (Your Student ID)" > message.txt``
+
+![Screenshot 2025-05-16 201337](https://github.com/user-attachments/assets/6be1756a-3356-4fd2-b100-9cd2c7e66bd0)
+
+
 ## Task 3: Sign and Verify a Message
 ## Task 4: Configure Passwordless SSH Authentication
 ## Task 5: Hash Cracking Challenge
